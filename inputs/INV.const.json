@@ -1,0 +1,12 @@
+{
+    "constraints": [
+        {
+            "const_name": "bias_Hgraph",
+            "distance": 0
+        },
+        {
+            "const_name": "bias_Vgraph",
+            "distance": 0
+        }
+    ]
+}

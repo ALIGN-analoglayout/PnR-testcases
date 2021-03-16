@@ -1,0 +1,46 @@
+{
+    "constraints": [
+        {
+            "const_name": "bias_Hgraph",
+            "distance": 0
+        },
+        {
+            "const_name": "bias_Vgraph",
+            "distance": 0
+        },
+        {
+            "const_name": "SymmNet",
+            "axis_dir": "V",
+            "net1": {
+                "name": "vin",
+                "blocks": [
+                    {
+                        "type": "pin",
+                        "name": "mmn1_mmn0",
+                        "pin": "GB"
+                    },
+                    {
+                        "type": "terminal",
+                        "name": "vin",
+                        "pin": null
+                    }
+                ]
+            },
+            "net2": {
+                "name": "vip",
+                "blocks": [
+                    {
+                        "type": "pin",
+                        "name": "mmn1_mmn0",
+                        "pin": "GA"
+                    },
+                    {
+                        "type": "terminal",
+                        "name": "vip",
+                        "pin": null
+                    }
+                ]
+            }
+        }
+    ]
+}
